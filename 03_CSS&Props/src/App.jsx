@@ -9,8 +9,9 @@ function App() {
 
   return (
     <>
-      <h1 className='bg-green-400
-     text-black rounded-xl mb-4'>Tailwind CSS</h1>
+      <h1 className='bg-purple-400
+     text-black rounded-xl mb-4'>REACT Codespace</h1>
+
 
       <Card texy = 'Hammad'/>
       <Card texy = 'Raza Khan' />
