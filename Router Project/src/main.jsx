@@ -51,7 +51,7 @@ const router = createBrowserRouter(
       <Route loader ={githubinfoloader}
        path='Github' element={<GitHub />} />
     </Route>
-  )
+  )  
 )
 
 createRoot(document.getElementById('root')).render(
