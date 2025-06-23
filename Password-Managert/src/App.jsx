@@ -2,6 +2,10 @@ import { useState, useCallback, useEffect, useRef} from 'react'
 import './App.css'
 import { parse } from 'postcss'
 
+// Callback -> Memorises fxn 
+// Caffeffect -> Re-runs whenever the dependencies are changed
+
+
 function App() {
 
   const [length, setLength] = useState(8)
@@ -35,7 +39,7 @@ function App() {
 
     const copytoclip = useCallback(()=> {
       passwordReference.current?.select()
-      passwordReference.current?.setSelectionRange(0,2);
+      //passwordReference.current?.setSelectionRange(0,2);
       window.navigator.clipboard.writeText(passwords)
     }, [passwords])
 
