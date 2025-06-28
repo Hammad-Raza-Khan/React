@@ -1,5 +1,1 @@
-/* eslint-disable no-unused-vars */
-import { TodoContext, TodoProvider, useTodo } from "./todocontext";
-
-
-
+export {TodoContext, TodoProvider, useTodo} from "./TodoContext/"
